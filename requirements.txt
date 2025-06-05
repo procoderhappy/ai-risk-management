@@ -1,0 +1,26 @@
+# Core Dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+python-multipart==0.0.6
+
+# Data Processing
+requests==2.31.0
+pandas==2.1.3
+numpy==1.25.2
+
+# AI/ML
+transformers==4.36.0
+torch==2.1.1
+sentence-transformers==2.2.2
+
+# Web Framework
+streamlit==1.28.2
+
+# Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# Development
+pytest==7.4.3
+black==23.11.0
